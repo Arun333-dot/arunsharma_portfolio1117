@@ -203,6 +203,7 @@
             margin-bottom: 1.5rem;
             color: var(--text-muted);
             line-height: 1.8;
+            font-size: 1.1rem;
         }
 
         .profile-image {
@@ -213,30 +214,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 5rem;
-            color: var(--text);
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
             overflow: hidden;
-            position: relative;
         }
 
         .profile-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: center;
-        }
-
-        .profile-image::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(135deg, rgba(15, 76, 117, 0.2) 0%, rgba(50, 130, 184, 0.2) 100%);
-            pointer-events: none;
-            z-index: 1;
         }
 
         /* Skills Section */
@@ -544,7 +529,7 @@
                     <p>I'm passionate about building robust test frameworks, optimizing CI/CD pipelines, and ensuring software quality at scale. My approach combines technical precision with strategic thinking to deliver measurable business impact.</p>
                 </div>
                 <div class="profile-image">
-                    <img src="profile_photo.heic" alt="Arun Sharma - SDET Professional" onerror="this.style.display='none'; this.parentElement.innerHTML='👤';">
+                    <img src="profile_photo.jpg" alt="Arun Sharma">
                 </div>
             </div>
         </section>
@@ -704,7 +689,7 @@
             <div class="contact-content">
                 <p>I'm always open to discussing new opportunities, collaborations, or conversations about software testing, automation, and quality assurance.</p>
                 <div class="contact-links">
-                    <a href="mailto:arunsharmaprofessional@gmail.com" class="contact-link">Email Me</a>
+                    <a href="/cdn-cgi/l/email-protection#7a1b080f1409121b08171b0a08151c1f09091315141b163a1d171b131654191517" class="contact-link">Email Me</a>
                     <a href="https://www.linkedin.com/in/arun-sharma-98b8881a6/" class="contact-link" target="_blank">LinkedIn</a>
                     <a href="https://github.com/Arun333-dot" class="contact-link" target="_blank">GitHub</a>
                 </div>
@@ -720,7 +705,7 @@
         </footer>
     </div>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -750,6 +735,4 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.section').forEach(section => {
-            section.style.opacity = '0';
-            section.style.transform = 'translateY(20px)'
+ 
